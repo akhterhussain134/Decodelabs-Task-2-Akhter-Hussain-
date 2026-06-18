@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CosmoX Space Exploration Agency — Advancing humanity through innovation, discovery, and interplanetary exploration." />
+  <title>CosmoX — Space Exploration Agency</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===================== STARS BACKGROUND ===================== -->
+  <div class="stars-bg" aria-hidden="true">
+    <div class="stars-layer stars-small"></div>
+    <div class="stars-layer stars-medium"></div>
+    <div class="stars-layer stars-large"></div>
+  </div>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="#hero" class="logo" aria-label="CosmoX Home">
+        <span class="logo-icon" aria-hidden="true">✦</span>
+        <span class="logo-text">COSMO<span class="logo-x">X</span></span>
+      </a>
+
+      <!-- Hamburger toggle (CSS-only) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="nav-burger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#missions">Missions</a></li>
+          <li><a href="#planets">Planets</a></li>
+          <li><a href="#fleet">Fleet</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section id="hero" class="hero" aria-label="Hero">
+      <div class="hero-bg">
+        <img
+          src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1920&q=80"
+          alt="Deep space nebula — vast galaxy with violet and teal hues"
+          class="hero-img"
+          loading="eager"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content glass">
+        <p class="hero-eyebrow">Est. 2025 · Earth Orbit — and Beyond</p>
+        <h1 class="hero-headline">Exploring<br /><span class="accent-text">Beyond</span><br />The Stars</h1>
+        <p class="hero-sub">Advancing humanity through innovation, discovery, and interplanetary exploration. CosmoX leads the next chapter of our cosmic story.</p>
+        <div class="hero-actions">
+          <a href="#missions" class="btn btn-primary">Explore Missions</a>
+          <a href="#about" class="btn btn-ghost">Learn More</a>
+        </div>
+      </div>
+      <div class="hero-scroll-cue" aria-hidden="true">
+        <span class="scroll-line"></span>
+        <span class="scroll-label">Scroll</span>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="section-eyebrow">Who We Are</p>
+            <h2 id="about-heading">A New Era of<br /><span class="accent-text">Space Exploration</span></h2>
+            <p class="body-text">CosmoX is a next-generation aerospace organization dedicated to pushing the boundaries of human knowledge. Born from the belief that the cosmos holds answers to our deepest questions, we unite the world's brightest minds around a single purpose: exploration without limits.</p>
+
+            <div class="about-pillars">
+              <div class="pillar">
+                <span class="pillar-icon" aria-hidden="true">◈</span>
+                <div>
+                  <h3>Our Mission</h3>
+                  <p>Pioneer sustainable deep-space exploration and make interplanetary travel accessible to humanity.</p>
+                </div>
+              </div>
+              <div class="pillar">
+                <span class="pillar-icon" aria-hidden="true">◉</span>
+                <div>
+                  <h3>Our Vision</h3>
+                  <p>A multi-planetary civilization where curiosity and cooperation drive civilization forward.</p>
+                </div>
+              </div>
+              <div class="pillar">
+                <span class="pillar-icon" aria-hidden="true">◆</span>
+                <div>
+                  <h3>Core Values</h3>
+                  <p>Boldness, precision, transparency, and an unwavering commitment to human advancement.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-visual">
+            <img
+              src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=900&q=80"
+              alt="International Space Station seen from orbit with Earth below"
+              class="about-img"
+              loading="lazy"
+            />
+            <div class="about-badge glass">
+              <span class="badge-num">18+</span>
+              <span class="badge-label">Years of Excellence</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MISSION CONTROL DASHBOARD ===================== -->
+    <section id="dashboard" class="section dashboard" aria-labelledby="dashboard-heading">
+      <div class="container">
+        <p class="section-eyebrow">Live Status</p>
+        <h2 id="dashboard-heading">Mission Control <span class="accent-text">Dashboard</span></h2>
+        <div class="dashboard-grid">
+          <div class="dash-card glass">
+            <div class="dash-icon" aria-hidden="true">🛰</div>
+            <div class="dash-num">150+</div>
+            <div class="dash-label">Active Missions</div>
+            <div class="dash-bar"><div class="dash-fill" style="width:75%"></div></div>
+          </div>
+          <div class="dash-card glass">
+            <div class="dash-icon" aria-hidden="true">👨‍🚀</div>
+            <div class="dash-num">300+</div>
+            <div class="dash-label">Astronauts</div>
+            <div class="dash-bar"><div class="dash-fill" style="width:60%"></div></div>
+          </div>
+          <div class="dash-card glass">
+            <div class="dash-icon" aria-hidden="true">📡</div>
+            <div class="dash-num">500+</div>
+            <div class="dash-label">Satellites in Orbit</div>
+            <div class="dash-bar"><div class="dash-fill" style="width:90%"></div></div>
+          </div>
+          <div class="dash-card glass">
+            <div class="dash-icon" aria-hidden="true">🪐</div>
+            <div class="dash-num">48</div>
+            <div class="dash-label">Planets Studied</div>
+            <div class="dash-bar"><div class="dash-fill" style="width:48%"></div></div>
+          </div>
+          <div class="dash-card glass">
+            <div class="dash-icon" aria-hidden="true">🔬</div>
+            <div class="dash-num">1M+</div>
+            <div class="dash-label">Data Samples</div>
+            <div class="dash-bar"><div class="dash-fill" style="width:85%"></div></div>
+          </div>
+          <div class="dash-card glass">
+            <div class="dash-icon" aria-hidden="true">🏗</div>
+            <div class="dash-num">50+</div>
+            <div class="dash-label">Research Centers</div>
+            <div class="dash-bar"><div class="dash-fill" style="width:50%"></div></div>
+          </div>
+        </div>
+
+        <!-- Mission Status Board -->
+        <div class="status-board glass">
+          <h3 class="status-title">Mission Status Board</h3>
+          <div class="status-list" role="list">
+            <div class="status-item" role="listitem">
+              <span class="status-name">Mars Explorer</span>
+              <span class="status-dot active" aria-label="Active"></span>
+              <span class="status-label active">ACTIVE</span>
+            </div>
+            <div class="status-item" role="listitem">
+              <span class="status-name">Europa Research</span>
+              <span class="status-dot progress" aria-label="In Progress"></span>
+              <span class="status-label progress">IN PROGRESS</span>
+            </div>
+            <div class="status-item" role="listitem">
+              <span class="status-name">Moon Base Alpha</span>
+              <span class="status-dot complete" aria-label="Completed"></span>
+              <span class="status-label complete">COMPLETED</span>
+            </div>
+            <div class="status-item" role="listitem">
+              <span class="status-name">Deep Space Voyager</span>
+              <span class="status-dot active" aria-label="Active"></span>
+              <span class="status-label active">ACTIVE</span>
+            </div>
+            <div class="status-item" role="listitem">
+              <span class="status-name">Solar Observatory</span>
+              <span class="status-dot progress" aria-label="In Progress"></span>
+              <span class="status-label progress">IN PROGRESS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FEATURED MISSIONS — BENTO GRID ===================== -->
+    <section id="missions" class="section missions" aria-labelledby="missions-heading">
+      <div class="container">
+        <p class="section-eyebrow">Our Operations</p>
+        <h2 id="missions-heading">Featured <span class="accent-text">Missions</span></h2>
+        <p class="section-sub">Six flagship programs pushing the frontier of what humankind knows about the cosmos.</p>
+
+        <div class="bento-grid">
+          <!-- Large card -->
+          <article class="bento-card bento-large" aria-label="Mars Explorer mission">
+            <img src="https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=900&q=80" alt="Mars red planet surface close-up" class="bento-img" loading="lazy" />
+            <div class="bento-overlay">
+              <span class="mission-tag">ONGOING</span>
+              <h3>Mars Explorer</h3>
+              <p>Robotic and human-crewed missions to map and prepare Mars for the first permanent human settlement by 2030.</p>
+            </div>
+          </article>
+
+          <!-- Tall card -->
+          <article class="bento-card bento-tall" aria-label="Lunar Base Alpha mission">
+            <img src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?w=600&q=80" alt="Moon surface with Earth visible in background" class="bento-img" loading="lazy" />
+            <div class="bento-overlay">
+              <span class="mission-tag">ACTIVE</span>
+              <h3>Lunar Base Alpha</h3>
+              <p>Constructing the first permanent lunar habitat as a gateway for deep-space missions.</p>
+            </div>
+          </article>
+
+          <!-- Regular card -->
+          <article class="bento-card" aria-label="Europa Research Mission">
+            <img src="https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?w=600&q=80" alt="Jupiter's icy moon Europa from space" class="bento-img" loading="lazy" />
+            <div class="bento-overlay">
+              <span class="mission-tag">PLANNED</span>
+              <h3>Europa Research</h3>
+              <p>Probing the subsurface ocean of Europa for signs of extraterrestrial life.</p>
+            </div>
+          </article>
+
+          <!-- Regular card -->
+          <article class="bento-card" aria-label="Deep Space Voyager mission">
+            <img src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=600&q=80" alt="Deep space stars and galaxies nebula" class="bento-img" loading="lazy" />
+            <div class="bento-overlay">
+              <span class="mission-tag">ACTIVE</span>
+              <h3>Deep Space Voyager</h3>
+              <p>Sending the most advanced probe beyond the heliosphere into interstellar space.</p>
+            </div>
+          </article>
+
+          <!-- Wide card -->
+          <article class="bento-card bento-wide" aria-label="Asteroid Mining Initiative">
+            <img src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=900&q=80" alt="Asteroid in deep space" class="bento-img" loading="lazy" />
+            <div class="bento-overlay">
+              <span class="mission-tag">RESEARCH</span>
+              <h3>Asteroid Mining Initiative</h3>
+              <p>Developing the technology to extract rare minerals from near-Earth asteroids to fuel the next generation of spacecraft.</p>
+            </div>
+          </article>
+
+          <!-- Regular card -->
+          <article class="bento-card" aria-label="Solar Observatory mission">
+            <img src="https://images.unsplash.com/photo-1506443432602-ac2fcd6f54e0?w=600&q=80" alt="The Sun photographed during solar flare" class="bento-img" loading="lazy" />
+            <div class="bento-overlay">
+              <span class="mission-tag">ACTIVE</span>
+              <h3>Solar Observatory</h3>
+              <p>Real-time monitoring of solar weather to protect Earth's satellite infrastructure and forecast space hazards.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PLANET SHOWCASE ===================== -->
+    <section id="planets" class="section planets" aria-labelledby="planets-heading">
+      <div class="container">
+        <p class="section-eyebrow">Destinations</p>
+        <h2 id="planets-heading">Planet <span class="accent-text">Showcase</span></h2>
+
+        <!-- Planet of the Month -->
+        <div class="planet-feature glass">
+          <div class="planet-feature-img-wrap">
+            <img src="https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=700&q=80" alt="Mars planet surface rendered from space" class="planet-feature-img" loading="lazy" />
+          </div>
+          <div class="planet-feature-info">
+            <span class="badge-pill">🏆 Planet of the Month</span>
+            <h3>Mars</h3>
+            <p>The Red Planet is at the centre of CosmoX's most ambitious programme. Thin atmosphere, ancient river beds, and a day just 37 minutes longer than Earth's make Mars the most human-ready world beyond our own.</p>
+            <div class="progress-block">
+              <div class="progress-header">
+                <span>Exploration Progress</span>
+                <span class="accent-text">78%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill" style="width:78%"></div>
+              </div>
+            </div>
+            <p class="planet-stat"><strong>Distance:</strong> 54.6 – 401 million km from Earth</p>
+            <p class="planet-stat"><strong>Status:</strong> <span class="accent-text">Active Missions</span></p>
+          </div>
+        </div>
+
+        <!-- Planet grid -->
+        <div class="planet-grid">
+          <article class="planet-card glass">
+            <img src="https://images.unsplash.com/photo-1614642264762-d0a3b8bf3700?w=500&q=80" alt="Earth from space — blue marble" class="planet-card-img" loading="lazy" />
+            <h3>Earth</h3>
+            <p>Our home world. Launch platform for every CosmoX mission and the standard against which all others are measured.</p>
+            <span class="planet-status complete-status">HOME BASE</span>
+          </article>
+          <article class="planet-card glass">
+            <img src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?w=500&q=80" alt="The Moon seen from Earth orbit" class="planet-card-img" loading="lazy" />
+            <h3>Moon</h3>
+            <p>Lunar Base Alpha is under construction. The Moon will serve as humanity's first permanent off-Earth address.</p>
+            <span class="planet-status active-status">IN PROGRESS</span>
+          </article>
+          <article class="planet-card glass">
+            <img src="https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?w=500&q=80" alt="Europa icy moon surface" class="planet-card-img" loading="lazy" />
+            <h3>Europa</h3>
+            <p>A frozen shell over a warm, salty ocean. Mission planners believe Europa may harbour the solar system's best chances for life.</p>
+            <span class="planet-status planned-status">PLANNED 2035</span>
+          </article>
+          <article class="planet-card glass">
+            <img src="https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?w=500&q=80" alt="Saturn planet with rings from space" class="planet-card-img" loading="lazy" />
+            <h3>Saturn</h3>
+            <p>The ringed giant is a long-range target. Early fly-by data will inform the Saturn System study launching in 2045.</p>
+            <span class="planet-status research-status">STUDY PHASE</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SPACECRAFT FLEET ===================== -->
+    <section id="fleet" class="section fleet" aria-labelledby="fleet-heading">
+      <div class="container">
+        <p class="section-eyebrow">Our Arsenal</p>
+        <h2 id="fleet-heading">Spacecraft <span class="accent-text">Fleet</span></h2>
+        <p class="section-sub">Engineered for the demands of deep space — each vessel is a triumph of human ingenuity.</p>
+
+        <div class="fleet-grid">
+          <article class="fleet-card glass">
+            <div class="fleet-img-wrap">
+              <img src="https://images.unsplash.com/photo-1517976487492-5750f3195933?w=600&q=80" alt="Rocket launch with fiery exhaust at night" class="fleet-img" loading="lazy" />
+            </div>
+            <div class="fleet-info">
+              <h3>Nova-X Titan</h3>
+              <ul class="fleet-specs">
+                <li><span>Speed</span><strong>28,000 km/h</strong></li>
+                <li><span>Capacity</span><strong>8 Crew</strong></li>
+                <li><span>Purpose</span><strong>Deep Space Transport</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="fleet-card glass">
+            <div class="fleet-img-wrap">
+              <img src="https://images.unsplash.com/photo-1541185934-01b600ea069c?w=600&q=80" alt="Space shuttle launching into blue sky" class="fleet-img" loading="lazy" />
+            </div>
+            <div class="fleet-info">
+              <h3>Orion Lander II</h3>
+              <ul class="fleet-specs">
+                <li><span>Speed</span><strong>11,200 km/h</strong></li>
+                <li><span>Capacity</span><strong>4 Crew</strong></li>
+                <li><span>Purpose</span><strong>Lunar Surface Ops</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="fleet-card glass">
+            <div class="fleet-img-wrap">
+              <img src="https://images.unsplash.com/photo-1457364887197-9150188c107b?w=600&q=80" alt="Space telescope orbiting with stars in background" class="fleet-img" loading="lazy" />
+            </div>
+            <div class="fleet-info">
+              <h3>Helios Probe</h3>
+              <ul class="fleet-specs">
+                <li><span>Speed</span><strong>70,000 km/h</strong></li>
+                <li><span>Capacity</span><strong>Unmanned</strong></li>
+                <li><span>Purpose</span><strong>Solar Research</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="fleet-card glass">
+            <div class="fleet-img-wrap">
+              <img src="https://images.unsplash.com/photo-1569701813229-33284b643e3c?w=600&q=80" alt="Futuristic spacecraft rendering in orbit" class="fleet-img" loading="lazy" />
+            </div>
+            <div class="fleet-info">
+              <h3>Vega Freighter</h3>
+              <ul class="fleet-specs">
+                <li><span>Speed</span><strong>15,000 km/h</strong></li>
+                <li><span>Capacity</span><strong>120T Cargo</strong></li>
+                <li><span>Purpose</span><strong>Supply Chain</strong></li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RESEARCH & INNOVATION ===================== -->
+    <section id="research" class="section research" aria-labelledby="research-heading">
+      <div class="container">
+        <p class="section-eyebrow">Science & Tech</p>
+        <h2 id="research-heading">Research &amp; <span class="accent-text">Innovation</span></h2>
+        <p class="section-sub">Cutting-edge programmes that redefine what technology can achieve beyond our atmosphere.</p>
+
+        <div class="research-grid">
+          <article class="research-card glass">
+            <div class="research-icon" aria-hidden="true">🤖</div>
+            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&q=80" alt="Robotic arm in high-tech lab" class="research-img" loading="lazy" />
+            <h3>Artificial Intelligence</h3>
+            <p>Neural networks that pilot craft, diagnose faults, and run simulations at machine speed — keeping missions safe when humans cannot intervene.</p>
+          </article>
+          <article class="research-card glass">
+            <div class="research-icon" aria-hidden="true">🦾</div>
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&q=80" alt="Scientist programming a robotics arm in lab" class="research-img" loading="lazy" />
+            <h3>Robotics</h3>
+            <p>Autonomous rovers and humanoid robots that explore environments hostile to biological life, from volcanic plains to frozen ocean floors.</p>
+          </article>
+          <article class="research-card glass">
+            <div class="research-icon" aria-hidden="true">⚛️</div>
+            <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=500&q=80" alt="Quantum computing processor chip" class="research-img" loading="lazy" />
+            <h3>Quantum Computing</h3>
+            <p>Quantum processors solve trajectory optimisation problems in seconds that would take classical computers millennia.</p>
+          </article>
+          <article class="research-card glass">
+            <div class="research-icon" aria-hidden="true">📡</div>
+            <img src="https://images.unsplash.com/photo-1614728423169-3f65fd722b7e?w=500&q=80" alt="Satellite dish array against dark sky" class="research-img" loading="lazy" />
+            <h3>Satellite Systems</h3>
+            <p>A constellation of 500+ satellites forms an interplanetary communications mesh, delivering gigabit data from the outer solar system.</p>
+          </article>
+          <article class="research-card glass">
+            <div class="research-icon" aria-hidden="true">🌐</div>
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&q=80" alt="Earth seen from space with light grid overlay" class="research-img" loading="lazy" />
+            <h3>Deep Space Comms</h3>
+            <p>Laser-based optical communication enables terabit-per-second links across hundreds of millions of kilometres of vacuum.</p>
+          </article>
+          <article class="research-card glass">
+            <div class="research-icon" aria-hidden="true">🌱</div>
+            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=500&q=80" alt="Plants growing in laboratory hydroponic setup" class="research-img" loading="lazy" />
+            <h3>Space Agriculture</h3>
+            <p>Closed-loop food systems that grow crops in microgravity — the biological engine behind long-duration crewed missions to Mars and beyond.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SPACE FACTS ===================== -->
+    <section class="section facts" aria-labelledby="facts-heading">
+      <div class="container">
+        <p class="section-eyebrow">Did You Know?</p>
+        <h2 id="facts-heading">Space <span class="accent-text">Facts</span></h2>
+        <div class="facts-grid">
+          <div class="fact-card glass">
+            <span class="fact-num">☀️</span>
+            <p>The Sun contains <strong>99.8%</strong> of all the mass in our solar system.</p>
+          </div>
+          <div class="fact-card glass">
+            <span class="fact-num">🪐</span>
+            <p>A day on <strong>Venus</strong> is longer than a year on Venus.</p>
+          </div>
+          <div class="fact-card glass">
+            <span class="fact-num">🌌</span>
+            <p>The observable universe contains an estimated <strong>2 trillion</strong> galaxies.</p>
+          </div>
+          <div class="fact-card glass">
+            <span class="fact-num">🚀</span>
+            <p>Light takes just <strong>8 minutes 20 seconds</strong> to travel from the Sun to Earth.</p>
+          </div>
+          <div class="fact-card glass">
+            <span class="fact-num">❄️</span>
+            <p>Space is not a perfect vacuum — it contains about <strong>5 atoms</strong> per cubic metre.</p>
+          </div>
+          <div class="fact-card glass">
+            <span class="fact-num">🌙</span>
+            <p>The Moon is moving away from Earth at about <strong>3.8 cm</strong> per year.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TIMELINE ===================== -->
+    <section class="section timeline-section" aria-labelledby="timeline-heading">
+      <div class="container">
+        <p class="section-eyebrow">Roadmap</p>
+        <h2 id="timeline-heading">Exploration <span class="accent-text">Timeline</span></h2>
+
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-node" aria-hidden="true"></div>
+            <div class="tl-content glass">
+              <span class="tl-year">2025</span>
+              <h3>Moon Research Program</h3>
+              <p>Deployment of 12 research robots and the ground-breaking for Lunar Base Alpha's foundation ring.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-node" aria-hidden="true"></div>
+            <div class="tl-content glass">
+              <span class="tl-year">2030</span>
+              <h3>Mars Settlement</h3>
+              <p>First six-person crew lands on Mars, establishing a pressurised habitat in the Jezero Crater region.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-node" aria-hidden="true"></div>
+            <div class="tl-content glass">
+              <span class="tl-year">2035</span>
+              <h3>Europa Mission</h3>
+              <p>An ice-penetrating probe descends 30 km through Europa's crust to sample the subsurface ocean.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-node" aria-hidden="true"></div>
+            <div class="tl-content glass">
+              <span class="tl-year">2040</span>
+              <h3>Deep Space Station</h3>
+              <p>Construction begins on a crewed waystation at the Sun-Earth L4 Lagrange point.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-node" aria-hidden="true"></div>
+            <div class="tl-content glass">
+              <span class="tl-year">2050</span>
+              <h3>Interstellar Exploration</h3>
+              <p>Launch of the first laser-sail nano-probe towards Alpha Centauri — humanity's first step between stars.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ASTRONAUT TEAM ===================== -->
+    <section id="team" class="section team" aria-labelledby="team-heading">
+      <div class="container">
+        <p class="section-eyebrow">The Crew</p>
+        <h2 id="team-heading">Meet Our <span class="accent-text">Astronauts</span></h2>
+        <p class="section-sub">Elite explorers chosen from thousands, trained to lead humanity's most ambitious voyages.</p>
+
+        <div class="team-grid">
+          <article class="team-card glass">
+            <div class="team-img-wrap">
+              <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=400&q=80" alt="Commander Sarah Chen in astronaut suit" class="team-img" loading="lazy" />
+            </div>
+            <h3>Commander Sarah Chen</h3>
+            <p class="team-role">Mission Commander</p>
+            <p class="team-exp">14 years · 3 deep-space missions</p>
+          </article>
+          <article class="team-card glass">
+            <div class="team-img-wrap">
+              <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=400&q=80" alt="Dr James Okafor aerospace scientist" class="team-img" loading="lazy" />
+            </div>
+            <h3>Dr James Okafor</h3>
+            <p class="team-role">Chief Scientist</p>
+            <p class="team-exp">11 years · 2 Mars expeditions</p>
+          </article>
+          <article class="team-card glass">
+            <div class="team-img-wrap">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80" alt="Lt Maya Rodriguez pilot engineer" class="team-img" loading="lazy" />
+            </div>
+            <h3>Lt Maya Rodriguez</h3>
+            <p class="team-role">Pilot Engineer</p>
+            <p class="team-exp">9 years · 5 orbital missions</p>
+          </article>
+          <article class="team-card glass">
+            <div class="team-img-wrap">
+              <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?w=400&q=80" alt="Dr Kai Yamamoto robotics specialist" class="team-img" loading="lazy" />
+            </div>
+            <h3>Dr Kai Yamamoto</h3>
+            <p class="team-role">Robotics Specialist</p>
+            <p class="team-exp">8 years · Lead on Mars Rover IV</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section id="gallery" class="section gallery-section" aria-labelledby="gallery-heading">
+      <div class="container">
+        <p class="section-eyebrow">Visual Archive</p>
+        <h2 id="gallery-heading">Space <span class="accent-text">Gallery</span></h2>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1541185934-01b600ea069c?w=600&q=80" alt="Rocket launch at night with orange flame trail" loading="lazy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=600&q=80" alt="Violet and teal nebula in deep space" loading="lazy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=600&q=80" alt="Asteroid rocky surface in space" loading="lazy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=600&q=80" alt="Mars planet surface in red hues" loading="lazy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=600&q=80" alt="Space station orbiting Earth" loading="lazy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=600&q=80" alt="Milky Way galaxy seen from dark sky" loading="lazy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?w=600&q=80" alt="Icy moon Europa with Jupiter in background" loading="lazy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1517976487492-5750f3195933?w=600&q=80" alt="Rocket leaving launch pad with full exhaust" loading="lazy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1506443432602-ac2fcd6f54e0?w=600&q=80" alt="Sun corona during solar observation" loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== KNOWLEDGE CENTER ===================== -->
+    <section class="section knowledge" aria-labelledby="knowledge-heading">
+      <div class="container">
+        <p class="section-eyebrow">Mission Briefings</p>
+        <h2 id="knowledge-heading">Knowledge <span class="accent-text">Center</span></h2>
+        <p class="section-sub">Dispatches from the frontier — written by the scientists who are there.</p>
+
+        <div class="articles-grid">
+          <article class="article-card glass">
+            <img src="https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=600&q=80" alt="Mars surface viewed from orbit" class="article-img" loading="lazy" />
+            <div class="article-body">
+              <span class="article-tag">Colonisation</span>
+              <h3>The Future of Mars Colonisation</h3>
+              <p>How CosmoX engineers are solving the radiation, food, and psychological challenges of permanent Martian residency.</p>
+              <a href="#" class="article-link" aria-label="Read more about Mars Colonisation">Read More →</a>
+            </div>
+          </article>
+          <article class="article-card glass">
+            <img src="https://images.unsplash.com/photo-1517976487492-5750f3195933?w=600&q=80" alt="Passenger rocket launch" class="article-img" loading="lazy" />
+            <div class="article-body">
+              <span class="article-tag">Tourism</span>
+              <h3>The Dawn of Space Tourism</h3>
+              <p>Sub-orbital flights begin in 2027. We explore what commercial space travel will look and feel like for the first passengers.</p>
+              <a href="#" class="article-link" aria-label="Read more about Space Tourism">Read More →</a>
+            </div>
+          </article>
+          <article class="article-card glass">
+            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&q=80" alt="AI robot in research environment" class="article-img" loading="lazy" />
+            <div class="article-body">
+              <span class="article-tag">Technology</span>
+              <h3>AI in Space Research</h3>
+              <p>From anomaly detection to autonomous navigation, machine intelligence is transforming how we explore the solar system.</p>
+              <a href="#" class="article-link" aria-label="Read more about AI in Space Research">Read More →</a>
+            </div>
+          </article>
+          <article class="article-card glass">
+            <img src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=600&q=80" alt="Deep space nebula discoveries" class="article-img" loading="lazy" />
+            <div class="article-body">
+              <span class="article-tag">Discovery</span>
+              <h3>Deep Space Discoveries 2035</h3>
+              <p>Helios Probe data has revealed three previously uncharted stellar nurseries within 40 light-years of the Sun.</p>
+              <a href="#" class="article-link" aria-label="Read more about Deep Space Discoveries">Read More →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== AWARDS ===================== -->
+    <section class="section awards" aria-labelledby="awards-heading">
+      <div class="container">
+        <p class="section-eyebrow">Recognition</p>
+        <h2 id="awards-heading">Awards &amp; <span class="accent-text">Achievements</span></h2>
+        <div class="awards-grid">
+          <div class="award-card glass">
+            <span class="award-icon" aria-hidden="true">🏆</span>
+            <h3>Best Aerospace Innovation</h3>
+            <p class="award-year">2035 · International Space Summit</p>
+          </div>
+          <div class="award-card glass">
+            <span class="award-icon" aria-hidden="true">🌟</span>
+            <h3>Deep Space Research Award</h3>
+            <p class="award-year">2033 · Global Science Foundation</p>
+          </div>
+          <div class="award-card glass">
+            <span class="award-icon" aria-hidden="true">🚀</span>
+            <h3>Interplanetary Excellence</h3>
+            <p class="award-year">2031 · United Nations Space Council</p>
+          </div>
+          <div class="award-card glass">
+            <span class="award-icon" aria-hidden="true">💎</span>
+            <h3>Zero-Carbon Launch Record</h3>
+            <p class="award-year">2029 · Earth Climate Institute</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== NEWSLETTER ===================== -->
+    <section class="section newsletter" aria-labelledby="newsletter-heading">
+      <div class="container">
+        <div class="newsletter-box glass">
+          <span class="newsletter-icon" aria-hidden="true">📨</span>
+          <h2 id="newsletter-heading">Stay Updated With <span class="accent-text">Space Discoveries</span></h2>
+          <p>Receive mission dispatches, science briefings, and exclusive launch alerts — straight to your inbox.</p>
+          <form class="newsletter-form" aria-label="Newsletter subscription form">
+            <label for="newsletter-email" class="sr-only">Email address</label>
+            <input type="email" id="newsletter-email" name="email" placeholder="your@email.com" autocomplete="email" required />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <p class="section-eyebrow">Get In Touch</p>
+        <h2 id="contact-heading">Contact <span class="accent-text">CosmoX</span></h2>
+        <p class="section-sub">Whether you're a researcher, partner, or the next person to walk on Mars — we want to hear from you.</p>
+
+        <div class="contact-layout">
+          <div class="contact-info">
+            <div class="contact-detail glass">
+              <span aria-hidden="true">📍</span>
+              <div>
+                <strong>Headquarters</strong>
+                <p>CosmoX Tower, Launch District, Cape Canaveral, FL 32920</p>
+              </div>
+            </div>
+            <div class="contact-detail glass">
+              <span aria-hidden="true">📞</span>
+              <div>
+                <strong>Mission Control</strong>
+                <p>+1 (800) COSMO-X1</p>
+              </div>
+            </div>
+            <div class="contact-detail glass">
+              <span aria-hidden="true">✉️</span>
+              <div>
+                <strong>General Enquiries</strong>
+                <p>hello@cosmox.space</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form glass" aria-label="Contact form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name">Full Name</label>
+                <input type="text" id="contact-name" name="name" placeholder="Dr Jane Smith" autocomplete="name" required />
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email Address</label>
+                <input type="email" id="contact-email" name="email" placeholder="jane@example.com" autocomplete="email" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" name="subject" placeholder="Mission Partnership Proposal" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="5" placeholder="Tell us about your vision..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="logo" aria-label="CosmoX Home">
+            <span class="logo-icon" aria-hidden="true">✦</span>
+            <span class="logo-text">COSMO<span class="logo-x">X</span></span>
+          </a>
+          <p>Advancing humanity through bold exploration and relentless curiosity about the cosmos.</p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" aria-label="CosmoX on Twitter" class="social-link">𝕏</a>
+            <a href="#" aria-label="CosmoX on LinkedIn" class="social-link">in</a>
+            <a href="#" aria-label="CosmoX on YouTube" class="social-link">▶</a>
+            <a href="#" aria-label="CosmoX on Instagram" class="social-link">◎</a>
+          </div>
+        </div>
+
+        <nav class="footer-nav" aria-label="Quick links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About CosmoX</a></li>
+            <li><a href="#missions">Missions</a></li>
+            <li><a href="#fleet">Fleet</a></li>
+            <li><a href="#team">Astronauts</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav" aria-label="Mission links">
+          <h4>Missions</h4>
+          <ul>
+            <li><a href="#missions">Mars Explorer</a></li>
+            <li><a href="#missions">Lunar Base Alpha</a></li>
+            <li><a href="#missions">Europa Research</a></li>
+            <li><a href="#missions">Deep Space Voyager</a></li>
+            <li><a href="#missions">Solar Observatory</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-contact-info">
+          <h4>Contact</h4>
+          <p>hello@cosmox.space</p>
+          <p>+1 (800) COSMO-X1</p>
+          <p>Cape Canaveral, FL 32920</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 CosmoX Space Exploration Agency. All rights reserved.</p>
+        <p>
+          <a href="#">Privacy Policy</a> ·
+          <a href="#">Terms of Use</a> ·
+          <a href="#">Accessibility</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
